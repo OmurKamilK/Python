@@ -113,3 +113,25 @@ print(fark(x,y))'''
 #25-)String: Bir metnin uzunluğunu bulan Python kodu nedir?
 '''Metin=str(input("bir metin giriniz uzunlugunu  bulalim:"))
 print(len(Metin))'''
+#26-)List: Bir listedeki en büyük elemanı bulan Python kodunu yazın
+'''List1=list(input("bir liste giriniz"))
+List1.sort()
+List1.reverse()
+print(List1[0])'''
+#27-)Tuple: İki demeti çarpan Python ifadesi nedir?
+'''Tuple1=("1","2")
+Tuple2=("3","4")
+Tuple2=list(Tuple2)
+Tuple1=list(Tuple1)
+for i in Tuple1:
+    for j in Tuple2:
+        i=int(i)
+        j=int(j)
+        result=i*j
+        print(result)'''
+#28-)Dictionary: Bir sözlüğe yeni bir anahtar ve değer ekleyen Python kodu nedir?
+'''dict1=dict(meyve="elma")
+print(dict1)
+dict1.update(Hayvan="ari")
+print(dict1)'''
+
