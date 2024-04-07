@@ -160,4 +160,7 @@ print(List3)'''
 '''set1={"1","2","3"}
 set2={"2","3","4"}
 print(set1.intersection(set2))'''
+#34-)Dictionary: Bir sözlükte belirli bir anahtarın değerini kontrol eden Python kodu nedir?
+'''dict1=dict(name="emre",surname="ayvaz")
+print(dict1.get("name"))'''
 
