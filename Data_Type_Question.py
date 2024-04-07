@@ -134,4 +134,30 @@ for i in Tuple1:
 print(dict1)
 dict1.update(Hayvan="ari")
 print(dict1)'''
+#29-)Sets: İki kümenin farkını bulan Python kodunu yazın.
+'''set1={"1","2","5"}
+set2={"1","2","3"}
+print(set1.difference(set2))'''
+#30-)String: Bir metnin başındaki ve sonundaki boşlukları kaldıran Python kodu nedir?
+'''Metin=" deneme metnidir bosluklar kalkacak"
+print(Metin)
+print(Metin.strip())'''
+#31-)List: Bir listedeki belirli bir indeksteki elemanı değiştiren Python kodunu yazın.
+'''List1=["elma","armut","uzum"]
+List1[2]="erik"
+print(List1)'''
+#32-)List: Bir listeye başka bir listenin elemanlarını ekleyen Python kodunu yazın.
+'''List1=["amasya","ankara"]
+list2=["antalya","izmir"]
+List1.extend(list2)
+print(List1)
+#or
+List1=["amasya","ankara"]
+list2=["antalya","izmir"]
+List3=list2+List1
+print(List3)'''
+#33-)Sets: İki kümenin aynı elemanlara sahip olup olmadığını kontrol eden Python kodunu yazın.
+'''set1={"1","2","3"}
+set2={"2","3","4"}
+print(set1.intersection(set2))'''
 
