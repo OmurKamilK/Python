@@ -163,4 +163,34 @@ print(set1.intersection(set2))'''
 #34-)Dictionary: Bir sözlükte belirli bir anahtarın değerini kontrol eden Python kodu nedir?
 '''dict1=dict(name="emre",surname="ayvaz")
 print(dict1.get("name"))'''
+#35-) verilen listede il plaka[1] istanbul olarak degistirin
+'''il_plaka = {1:'Adana'}
+il_plaka[2] = 'Adiyaman'
+il_plaka[3] = 'Afyon'
+print(il_plaka)
+il_plaka[1]="istanbul"
+print(il_plaka)'''
+#36-)Dict'ten keys degerleri listeleyiniz
+'''il_plaka = {1:'Adana'}
+il_plaka[2] = 'Adiyaman'
+il_plaka[3] = 'Afyon'
+print(il_plaka.keys())'''
+#37-)Dict'ten keys degerlere karsilik gelen degerleri listeleyin
+'''il_plaka = {1:'Adana'}
+il_plaka[2] = 'Adiyaman'
+il_plaka[3] = 'Afyon'
+print(il_plaka.values())'''
+#38-)Keys-value ciftlerini liste tipinde bir degiskene aktarin.
+'''il_plaka = {1:'Adana'}
+il_plaka[2] = 'Adiyaman'
+il_plaka[3] = 'Afyon'
+il_plaka=list(il_plaka.items())
+print(type(il_plaka))
+print(il_plaka)'''
+#39-)Dictionary den bir deger siliniz
+'''il_plaka = {1:'Adana'}
+il_plaka[2] = 'Adiyaman'
+il_plaka[3] = 'Afyon'
+il_plaka.pop(2)
+print(il_plaka)'''
 
