@@ -1,10 +1,10 @@
+import time
 #1-)Kullanicidan alinan sayinin tek mi cift mi oldugunu kontrol eden kodu yaziniz.
 '''Numb=int(input("bir sayi giriniz"))
 if( Numb % 2 == 0):
     print("sayi cifttir")
 else:
     print("sayi tektir")'''
-import time
 
 #2-)Kullanicadan alinan sayinin tersini alan kodu yaziniz.
 '''a=int(input("bir sayi giriniz"))
@@ -105,6 +105,7 @@ for Hak in range(3,0,-1):
         time.sleep(1)
         print("Cikis yapildi.")
         break
+      
 
 time.sleep(1)
 print("3 kere yanlis girdiniz,Cikis yapildi.")
