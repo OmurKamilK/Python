@@ -85,7 +85,7 @@ else:
 #6-)6- Bir 4 haneli pin kodu belirleyiniz. Bu pin kodunu uygulamaniza kisiyi dogrulamakta kullanmak icin kullancaksiniz.
 # Kullanici 3 kez yanlis pin girdiginde uyari mesaji vererek uygulamayi sonlandirir. Basarili giriste ise "Giris dogrulandi"
 # seklinde ekrana bildirim versin.
-pin="1234"
+'''pin="1234"
 Pass=input("Lutfen sifreyi giriniz:")
 for Hak in range(3,0,-1):
     if (Pass != pin and len(Pass) != 4 and Pass.isalpha() != True and Hak >= 0):
@@ -108,7 +108,5 @@ for Hak in range(3,0,-1):
       
 
 time.sleep(1)
-print("3 kere yanlis girdiniz,Cikis yapildi.")
-
-
+print("3 kere yanlis girdiniz,Cikis yapildi.")'''
 
