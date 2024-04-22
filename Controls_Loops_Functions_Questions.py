@@ -26,15 +26,15 @@ else:
 '''viz=int(input("bir vize puani giriniz"))
 fin=int(input("bir final puani giriniz"))
 result=(viz*0.4)+(fin*0.6)
-if(100>result>=90):
+if(result<=100 and result>=90):
     print("A")
-elif(90>result>=80):
+elif(result<90 and result>=80):
     print("B")
-elif(80>result>=70):
+elif(result<80 and result>=70):
     print("C")
-elif(70>result>=60):
+elif(result<70 and result>=60):
     print("D")
-elif(60>result>=0):
+elif(result<60 and result>=0):
     print("F")
 else:
     print("hatali islem")'''
